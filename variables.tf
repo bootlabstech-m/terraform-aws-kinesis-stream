@@ -2,10 +2,6 @@ variable "name" {
   description = "value"
   type        = string
 }
-variable "shard_count" {
-  description = "value"
-  type        = number
-}
 variable "retention_period" {
   description = "value"
   type        = number
@@ -34,3 +30,7 @@ variable "role_arn" {
   description = "Role ARN"
   type        = string
 }
+
+
+
+

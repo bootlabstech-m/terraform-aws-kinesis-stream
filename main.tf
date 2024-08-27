@@ -1,6 +1,5 @@
 resource "aws_kinesis_stream" "test_stream" {
   name                      = var.name
-  shard_count               = var.shard_count
   retention_period          = var.retention_period
   enforce_consumer_deletion = var.enforce_consumer_deletion
 
@@ -11,3 +10,4 @@ resource "aws_kinesis_stream" "test_stream" {
   }
 
 }
+
